@@ -26,15 +26,22 @@ body {
   text-align: center;
 }
 
+
+
+
 .hero-content {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 40px;
+  /* gap: 40px; */
+  gap: 32px;
   width: 100%;
   max-width: 500px;
 }
+
+
+
 
 /* LOGO - unchanged */
 /* .hero-logo {
@@ -43,20 +50,46 @@ body {
   height: auto;
 } */
 
+
+
+
+
 /* LOGO - unchanged */
 .hero-logo {
-  font-size: 49px;
-  /* font-weight: 900; */
-  color: #00ffff;
+  /* font-size: 49px; */
+  font-size: 50px;
+  /* color: #00ffff; */
+  color: rgb(0, 255, 255);
   letter-spacing: 4px;
-  /* font-family: "Franklin Gothic Medium", "Arial Black", sans-serif; */
   text-shadow: 0 0 15px rgba(0, 255, 255, 0.7);
   max-width: 85vw;
   text-align: center;
   font-family: "Barlow Condensed", sans-serif;
   font-weight: 200;
   font-style: normal;
+
+
+  /* Added for perfect vertical stacking */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1.2;
 }
+
+
+.hero-logo span {
+  color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
 
 /* BUTTON - Now smaller, tighter, more refined */
 .button-container {
